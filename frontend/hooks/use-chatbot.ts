@@ -70,7 +70,7 @@ export function useChatBot() {
       toast.error('Failed to send message. Please try again.')
       const mockResponse: Message = {
         role: 'model',
-        content: 'I apologize for the technical difficulty. Please ensure the backend server is running at http://127.0.0.1:8000',
+        content: 'I apologize for the technical difficulty. Please ensure the backend server is accessible.',
       }
       setMessages((prev) => [...prev, mockResponse])
     } finally {
