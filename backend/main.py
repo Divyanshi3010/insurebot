@@ -17,6 +17,11 @@ load_dotenv()
 
 app = FastAPI()
 
+@app.get("/")
+@app.head("/")
+def health_check():
+    return {"status": "ok"}
+
 # --- CORS SETUP ---
 app.add_middleware(
     CORSMiddleware,
@@ -355,7 +360,7 @@ async def chat_endpoint(request: ChatRequest):
             "error": error_msg
         }
 
-if __name__ == "__main__":
-    import uvicorn
-    # Make sure we bind to 0.0.0.0 to be accessible
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# if __name__ == "__main__":
+#     import uvicorn
+#     # Make sure we bind to 0.0.0.0 to be accessible
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
