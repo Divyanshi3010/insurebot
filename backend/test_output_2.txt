@@ -1,0 +1,8 @@
+Sending request to http://localhost:8000/chat...
+Status Code: 200
+Response JSON:
+{
+  "response": "That's great! Thank you for sharing those details. It gives us a strong starting point for finding the best plan for you.\n\nTo proceed with the calculation, I just need one more key piece of information:\n\nCould you please tell me your **gender**?",
+  "recommendations": null,
+  "analysis": null
+}

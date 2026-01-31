@@ -1,0 +1,25 @@
+
+Sending User Message: Hi, I am looking for insurance.
+Status: 200
+Bot Response: ⚠️ I'm currently receiving too many requests (Quota Exceeded). Please try again in usually 1-2 minutes. (Free Tier Limit)
+No Recommendations yet.
+
+Sending User Message: I am 30 years old and earn 20 Lakhs.
+Status: 200
+Bot Response: ⚠️ I'm currently receiving too many requests (Quota Exceeded). Please try again in usually 1-2 minutes. (Free Tier Limit)
+No Recommendations yet.
+
+Sending User Message: I am a Software Engineer.
+Status: 200
+Bot Response: ⚠️ I'm currently receiving too many requests (Quota Exceeded). Please try again in usually 1-2 minutes. (Free Tier Limit)
+No Recommendations yet.
+
+Sending User Message: No, I don't smoke.
+Status: 200
+Bot Response: ⚠️ I'm currently receiving too many requests (Quota Exceeded). Please try again in usually 1-2 minutes. (Free Tier Limit)
+No Recommendations yet.
+
+Sending User Message: Male.
+Status: 200
+Bot Response: ⚠️ I'm currently receiving too many requests (Quota Exceeded). Please try again in usually 1-2 minutes. (Free Tier Limit)
+No Recommendations yet.
