@@ -61,8 +61,6 @@ iniconfig==2.3.0
 ipykernel==6.29.5
 ipython==8.27.0
 itsdangerous==2.2.0
-jax==0.4.31
-jaxlib==0.4.31
 jedi==0.19.1
 Jinja2==3.1.6
 jiter==0.12.0
